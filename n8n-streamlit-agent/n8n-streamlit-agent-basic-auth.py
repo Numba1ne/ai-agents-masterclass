@@ -3,8 +3,8 @@ import requests
 import uuid
 
 # Constants
-WEBHOOK_URL = "YOUR_N8N_WEBHOOK_URL_HERE"
-BEARER_TOKEN = "YOUR_BEARER_TOKEN_HERE"
+WEBHOOK_URL = "https://slayer.app.n8n.cloud/webhook/420dc2bf-8701-493d-a11d-864fa7263c5c"
+BEARER_TOKEN = "Bearer $token"
 
 def generate_session_id():
     return str(uuid.uuid4())
