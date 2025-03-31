@@ -9,7 +9,7 @@ SUPABASE_KEY = "YOUR_SUPABASE_ANONYMOUS_API_KEY_HERE"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Webhook URL (replace with your n8n webhook URL)
-WEBHOOK_URL = "YOUR_N8N_WEBHOOK_URL_HERE"
+WEBHOOK_URL = "https://slayer.app.n8n.cloud/webhook/420dc2bf-8701-493d-a11d-864fa7263c5c"
 
 def login(email: str, password: str):
     try:
